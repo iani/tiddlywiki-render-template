@@ -4,10 +4,6 @@
 <h1 style="color:red;">INCOMPLETE</h1>
 #+END_HTML
 
-#+BEGIN_HTML
-<b><font size="7" color="red">INCOMPLETE</font></b>
-#+END_HTML
-
 Template for a TiddlyWiki5 that renders to html. With scripts for deploying to gh_pages. For use with org-pm2.  See more details in http://github.com/iani/org-pm2.
 
 * Running the Wiki in online-editable mode with Node.js
