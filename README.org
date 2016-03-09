@@ -1,2 +1,22 @@
+ 9 Mar 2016 12:41
 
 Template for a TiddlyWiki5 that renders to html. With scripts for deploying to gh_pages. For use with org-pm2.
+
+* Running the Wiki in online-editable mode with Node.js
+
+Running the wiki locally:
+
+On the shell, navigate (cd) to the folder that contains the wiki which you want to run (in this case: Try with the template folder in =WIKIS/template/=). Then execute the shell command: =tiddlywiki server --server 8080=.  Full script when running from the present file with 
+
+#+BEGIN_EXAMPLE
+cd ./WIKIS/template/
+tiddlywiki server --server 8080 
+#+END_EXAMPLE
+
+
+!
+This starts the wiki on port 8080. The wiki will be accessible at:
+
+http://127.0.0.1:8080
+
+Change the port number at will. 

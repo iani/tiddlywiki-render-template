@@ -1,0 +1,6 @@
+created: 20151010133450487
+modified: 20160309122654187
+title: About
+type: text/vnd.tiddlywiki
+
+This ~TiddlyWiki is pre-configured for rendering as html file to work on a http server.  For more info see: https://github.com/iani/tiddlywiki-render-template and https://github.com/iani/org-pm2.
