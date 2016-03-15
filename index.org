@@ -1,9 +1,0 @@
-# Export this wiki with org-pm-tw-export-file to create the index.html page of your site
-# Then deploy it to github with org-pm-tw-deploy-file to upload to github
-
-* Testing
-
-Incomplete
-
-abcde
-

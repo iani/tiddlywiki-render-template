@@ -10,10 +10,10 @@ Template for a TiddlyWiki5 that renders to html. With scripts for deploying to g
 
 Running the wiki locally:
 
-On the shell, navigate (=cd=) to the folder that contains the wiki which you want to run (in this case: Try with the template folder in =WIKIS/template/=). Then execute the shell command: =tiddlywiki server --server 8080=.  Full script when running from the present file: 
+On the shell, navigate (=cd=) to the folder that contains the wiki which you want to run (in this case: Try with the template folder in =./template/=). Then execute the shell command: =tiddlywiki server --server 8080=.  Full script when running from the present file: 
 
 #+BEGIN_EXAMPLE
-cd ./WIKIS/template/
+cd ./template/
 tiddlywiki server --server 8080 
 #+END_EXAMPLE
 
@@ -21,5 +21,5 @@ This starts the wiki on port 8080. The wiki will be accessible at:
 
 http://127.0.0.1:8080
 
-Change the port number at will. 
+Note: Each new wiki must be started on a different port number. Change the port number at will. 
 
