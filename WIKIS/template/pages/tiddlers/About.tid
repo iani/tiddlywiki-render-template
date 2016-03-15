@@ -1,6 +1,18 @@
 created: 20151010133450487
-modified: 20160309122654187
+modified: 20160311104147337
+tags: contents
 title: About
 type: text/vnd.tiddlywiki
 
 This ~TiddlyWiki is pre-configured for rendering as html file to work on a http server.  For more info see: https://github.com/iani/tiddlywiki-render-template and https://github.com/iani/org-pm2.
+
+Click the gears and the screen-rectangle icon underneath the title of the wiki to the right of this page to customize the look of this wiki.  The look is retained when rendering the wiki to html from the shell or from EMACS.  Or you can use these links instead:
+
+* Control Panel: [[$:/ControlPanel]]
+* Story View: [[$:/core/ui/ControlPanel/StoryView]]
+
+Including subsections contained in separate tiddlers inside the body of the parent tiddler: 
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "About">>
+</div>

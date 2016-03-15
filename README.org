@@ -10,7 +10,7 @@ Template for a TiddlyWiki5 that renders to html. With scripts for deploying to g
 
 Running the wiki locally:
 
-On the shell, navigate (cd) to the folder that contains the wiki which you want to run (in this case: Try with the template folder in =WIKIS/template/=). Then execute the shell command: =tiddlywiki server --server 8080=.  Full script when running from the present file with 
+On the shell, navigate (=cd=) to the folder that contains the wiki which you want to run (in this case: Try with the template folder in =WIKIS/template/=). Then execute the shell command: =tiddlywiki server --server 8080=.  Full script when running from the present file: 
 
 #+BEGIN_EXAMPLE
 cd ./WIKIS/template/
